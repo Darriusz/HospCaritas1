@@ -1,0 +1,549 @@
+.navbar {
+/*	background-image: url("../images/NavBarZPulpitu_m.jpg");*/
+	background-color: rgba(29,76,123,.6); /* #3772AE rgba(55, 114, 174, 0.8); #295488;*/
+/*	height: 60px*/
+/*	border-radius: 5px;*/
+	height: 6em;
+}	
+
+#telebimImg{
+	position: absolute;
+  	left: 0px;
+  	top: 0px;
+	z-index: -2;
+	width:110%;
+	max-height: 550px;
+}
+
+h1.mainTelebim {	
+	text-align:center; 
+	margin-top: 4%;
+	font-size: 5vw;
+	color:white;
+	text-shadow: -1px -1px #000000,
+    1px -1px #000000,
+    -1px 1px #000000,
+    1px 1px #000000;	/*to jest OUTLINE zrobiony z czarnego cienia*********************/
+}
+
+#jumboRow{
+	z-index: -1;
+}
+
+#jumbo {
+	width:50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	color: #FA857F;
+	font-size: 2.5vw;	
+	margin-top: 0.5em;
+	margin-bottom: 1.2em;
+	padding: 0.6em 0em 0.6em 0em;
+	background-color: rgba(29,76,123,.4) /*rgba(0,0,0,0.3)*/;
+	border-radius: 5px;
+}
+
+#colIndex{
+	position: relative;
+	margin-top: 10%;
+}
+
+#sp {
+	font-size: 0.5em;
+	color: #EDB6B4; /*#D69F9D #CC6965 #FA857F;*/
+}
+
+a.nav-link {
+	font-size: 125%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #E5E0E0 /*#FA857F;*/
+	text-align: center;
+}
+
+#dropdown-toggle {
+	color:white;
+}
+
+/*#input{
+	float: right;
+}
+*/
+/*#search {
+	background-color: #FA857F;
+	border-radius: 5px;
+	border: none;*/
+/*	margin-left: 25px;*/
+}
+
+
+hr.menuHr{
+	border: 0; 
+	border-top: 1px solid white;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #BEDBF8;
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 5px;
+}
+
+
+h3 > a {
+	text-decoration: none;
+	color: black;
+} 
+
+h3 > a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #E5E0E0;
+	border-radius: 15px;
+} 
+
+
+small{
+	color: #FA857F;
+	font-size:50%;
+}
+
+.container-fluid{
+	width:95%;
+	margin: auto;
+}
+
+.jumbotron {
+
+/*	background-image: url("http://webershandwick.co.uk/wp-content/uploads/2013/11/Corporate-2.jpg");*/
+	background-image: url("https://wellsky.com/wp-content/uploads/2018/09/hdr_Home_hospice2.jpg"); /*width="1500" height="455" title="hdr_Home_hospice2" alt="" itemprop="thumbnailUrl" style="min-height: 321px; min-width: 1059px; left: 0px;">*/
+/*	background-image: url("https://www.stjoeschipfalls.org/www-sjcf/media/SJCF-Images/header-images/services-header-hospice.png");*/
+/*	background-repeat: no-repeat;
+*/	color: white;
+/*	margin-top: 60px; /*for fixed navbar BUT doesn't move down with coll navbar. Moves down when no margin top and no fixed navbar */
+/*	max-height: 450px;*/
+/*	width: 100%;*/
+
+}
+
+h1.main {
+/*	padding-top: 40px;*/
+	font-size: 7vw;
+	color:white;
+	text-shadow: -1px -1px #000000,
+    1px -1px #000000,
+    -1px 1px #000000,
+    1px 1px #000000;	/*to jest OUTLINE zrobiony z czarnego cienia*********************/
+}
+
+
+.display-2, .display-3, .display-4 {
+	color: #FA857F;
+	text-align: left;
+
+}
+
+.display-4{
+	font-size: 4.5vw;
+}
+
+#personel.display-4{
+	text-align: center;
+	font-size: 4vw;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #295488;
+}
+
+hr.short{
+	width:60%;
+	border: 0; 
+	border-top: 1px solid #FA857F;
+	margin-top: 50px;
+}
+
+#big {
+	margin-top: 20px;
+}
+
+#bigPage1 {
+	margin-top: 100px;
+}
+
+#bigPage3 {
+	margin-top: 60px;
+}
+	
+#longText{
+	width: 85%;
+	margin: auto;
+	text-align: justify;
+	background-color: #E5E0E0;
+}
+
+#longTextWolont{
+	width: 85%;
+	margin: auto;
+	margin-top: 40px;
+	text-align: justify;
+/*	background-color: #E5E0E0;*/
+	border: 1px solid black;
+}
+
+
+
+/*#bodyPage1, #bodyPage2{
+	background-color: #A9B0B1;
+}*/
+
+#startParaPage1 {
+	margin-top: 35px;
+}
+
+#carous {
+ 	width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px #295488;
+}
+
+#slajdy {
+	margin-top: 50px;
+	width: 50%;
+	height: auto;
+/*	flex: 1.33;	*/
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 600px;
+}
+
+#tytMisja{
+	font-size:280%;
+	text-align: center;
+	color: #295488;
+	margin-top: 40px;
+	margin-bottom:50px;
+}
+
+.MycolImg {
+/*	max-width: 374px;
+	max-height: 100%;
+*/	flex: 1.1;
+ 	max-height: 100% ;
+ 	max-width: 100%;
+ 	border: 1px solid black;
+ 	box-shadow: 2px 2px #E5E0E0;
+ 	margin: 7%;
+}
+
+.pers, .persBtn {
+	color:grey;
+}
+
+.pers:hover, .persBtn:hover {
+	text-decoration: none;
+	color: #FA857F;
+}
+
+.modal-body{
+	text-align: justify; 
+}
+
+#collapsiblePanelsWolont {
+	background-color:#E5E0E0;
+	padding-top:10px;
+	border-radius:5px;
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.colPanel {
+	text-decoration: none;
+	color: #FA857F;
+}
+
+h4 > a.display-4 {
+	font-size: 150%;
+}
+
+h4 > a:hover {
+	text-decoration: none;
+	color: white;
+} 
+
+.panel-title{
+	text-align: center;
+}
+
+#button3PanelHeading{
+	color: red;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+
+.colImg {
+	width:100%;
+	max-width: 400px;
+	max-height: 250px;
+	margin-top: 20px;
+	border: 1px solid black;
+	box-shadow: 2px 2px #A8B7C6;
+}
+
+#mainFooter{
+	background-color: #576A6F; /*#0E284D;*/
+	color: #BAD5FC; /*#ACAFB3;*/
+	text-align: center;	
+	margin-top: 30px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+a.tel, a.mailto {
+	color: #BAD5FC;
+}
+
+a.telModal, a.mailtoModal {
+	color: #FA857F;
+}
+
+a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
+	text-decoration: none;
+	color: #8B9DB5;
+}
+
+#copyright{
+	text-align: center;
+	color: #8B9DB5;
+	font-size:0.8em;
+}
+
+
+/*******extra extra small**********/
+@media (max-width: 450px) {
+
+	#telebimImg{
+		width:100%;
+		left: 0px;
+  		top: 76px;
+	}
+
+	h1.mainTelebim {
+		margin-top: 0.5em;
+	}
+
+	#colIndex{
+		margin-top: 10%;
+	}
+	
+	h1 {
+		font-size: 100%;
+		margin-top: 6px;
+	}
+
+	h1.main {
+		font-size: 30px;
+		margin-top: 0px;
+	}
+	#telebim {
+		width: 100%;
+		height: 250px;
+	}
+	#jumbo {
+		color: #FA857F;
+		font-size: 12px;
+		margin-top: 2px;
+	}
+	
+	body {
+		font-size: 0.8em;
+	}
+
+/*	#sp {
+	color: #FA857F;
+}*/
+
+	.jumbotron{
+		height:180px;
+		padding-top: 1.5em;
+		padding-bottom: 1em;		
+	}
+
+	.display-2 {
+		font-size:380%;
+		margin-top: 20px;
+	}
+
+	.display-3 {
+		font-size:310%;
+	}
+
+	.display-4{
+		font-size: 250%;
+		margin-top: 0;			
+	}
+
+	.lead{
+		font-size: 120%;
+	}
+
+	h4 > a.display-4 {
+	font-size: 100%;
+}
+	
+	#button1, #button2, #button3 {
+		font-size:110%;
+		width: 60%;
+	}
+}
+
+
+/*******extra small**********/
+@media (min-width: 451px) and (max-width: 576px) {
+	
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: center;
+	}
+
+	#telebimImg{
+		width:160%;
+	}
+
+	h1.mainTelebim {
+		margin-top: 1em;
+	}
+
+	#colIndex{
+		margin-top: 10%;
+	}
+	
+	h1 {
+		font-size: 100%;
+		margin-top: 6px;
+	}
+
+	body {
+		font-size: 0.8em;
+	}
+
+/*	#sp {
+	color: #FA857F;
+	}*/
+	.jumbotron{
+		height:220px;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	#telebim {
+		width: 100%;
+		height: 250px;
+	}
+
+	h1.main{
+		margin-top: 0px;
+	}
+
+	.display-2 {
+		font-size:380%;
+		margin-top: 20px;		
+	}
+	.display-3 {
+		font-size:310%;
+	}
+	.display-4{
+		font-size: 250%;
+		margin-top: 20px;			
+	}
+	.lead{
+		font-size: 120%;
+	}
+	h4 > a.display-4 {
+		font-size: 100%;
+	}
+}
+
+
+/*******medium and small**********/
+@media (min-width: 577px) and (max-width: 991px) {
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: center;
+		background-color: rgb(29,76,123);
+	}
+
+	#telebimImg{
+		width:140%;
+		max-height: 450px;
+	}
+	h1.mainTelebim {
+		margin-top: 5%;
+	}
+
+	#colIndex{
+		margin-top: 10%;
+	}
+
+	#telebim {
+		width: 100%;
+		height: 350px;
+	}
+	h1 {
+		font-size: 150%;
+		margin-top: 6px;
+	}
+
+	.display-2 {
+		font-size:400%;
+	}
+
+	.display-3 {
+		font-size:350%;
+	}
+
+	.display-4{
+		font-size: 310%;
+	}
+	.lead{
+		font-size: 120%;
+	}
+	h4 > a.display-4 {
+		font-size: 150%;
+	}
+	
+}
+
+
+/*******large**********/
+@media (min-width: 992px) {
+
+
+	h1.main {
+		font-size: 60px;
+	}
+
+	.jumbotron{
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
+	#jumbo {
+		color: #FA857F;
+		font-size: 25px;
+	}
+		
+	.display-4{
+		font-size: 58px;
+}
