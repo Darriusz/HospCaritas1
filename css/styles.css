@@ -3,8 +3,13 @@
 	background-color: rgba(29,76,123,.6); /* #3772AE rgba(55, 114, 174, 0.8); #295488;*/
 /*	height: 60px*/
 /*	border-radius: 5px;*/
-	height: 6em;
+	height: 5em;
 }	
+
+a.navbar-brand h1{
+	margin-top: 5px;
+	line-height: 80%;
+}
 
 #sp {
 	font-size: 0.5em;
@@ -76,7 +81,7 @@ hr.toggle{
   	left: 0px;
   	top: 0px;
 	z-index: -2;
-	width:110%;
+	width:100%;
 	max-height: 550px;
 }
 
@@ -359,7 +364,7 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	}
 
 	#telebimImg{
-		width:170%;
+		width:160%;
 /*		left: 0px;
   		top: 76px;*/
 	}
@@ -451,7 +456,7 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	}
 
 	#telebimImg{
-		width:150%;
+		width:140%;
 	}
 
 	h1.mainTelebim {
@@ -524,9 +529,10 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	}
 
 	#telebimImg{
-		width:140%;
+		width:130%;
 		max-height: 450px;
 	}
+
 	h1.mainTelebim {
 		margin-top: 5%;
 	}
