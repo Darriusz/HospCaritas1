@@ -331,10 +331,11 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		text-align: center;
 		background-color: rgb(29,76,123);
 	}
+
 	#telebimImg{
-		width:100%;
-		left: 0px;
-  		top: 76px;
+		width:170%;
+/*		left: 0px;
+  		top: 76px;*/
 	}
 
 	h1.mainTelebim {
