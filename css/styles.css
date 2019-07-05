@@ -76,6 +76,34 @@ hr.toggle{
 }
 
 
+/*************social media*******************/
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+
+.fa:hover {
+	color: rgba(255,255,255,0.5);
+	text-decoration: none; 
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/**************end of social media *****************/
+
+
 #telebimImg{
 	position: absolute;
   	left: 0px;
