@@ -83,7 +83,7 @@ hr.toggle{
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 5px;
+  margin: 1px 5px;
 }
 
 .fa:hover {
@@ -391,15 +391,24 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		padding-left: 15px;
 	}
 
+	.fa {
+	  padding: 5px;
+	  font-size: 10px;
+	  width: 20px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 1px;
+	}
+
 	#telebimImg{
 		width:160%;
 /*		left: 0px;
   		top: 76px;*/
 	}
 
-#topText{
-	margin-top: 12%;
-}
+	#topText{
+		margin-top: 12%;
+	}
 
 	h1.mainTelebim {
 		margin-top: 0.5em;
@@ -482,7 +491,15 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		padding-right: 15px;
 		padding-left: 15px;		
 	}
-
+	.fa {
+	  padding: 5px;
+	  font-size: 15px;
+	  width: 30px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 1px 3px;
+	}
+	
 	#telebimImg{
 		width:140%;
 	}
@@ -554,6 +571,10 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		background-color: rgba(29,76,123,.9);
 		padding-right: 15px;
 		padding-left: 15px;
+	}
+
+	.social {
+		display: inline;	
 	}
 
 	#telebimImg{
