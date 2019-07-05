@@ -44,9 +44,10 @@ h1.mainTelebim {
 	border-radius: 5px;
 }
 
-#colIndex{
+#topText{
 	position: relative;
 	margin-top: 10%;
+/*	margin-top: 35px;		*/
 }
 
 #sp {
@@ -170,14 +171,6 @@ hr.short{
 	margin-top: 20px;
 }
 
-#bigPage1 {
-	margin-top: 100px;
-}
-
-#bigPage3 {
-	margin-top: 60px;
-}
-	
 #longText{
 	width: 85%;
 	margin: auto;
@@ -200,9 +193,9 @@ hr.short{
 	background-color: #A9B0B1;
 }*/
 
-#startParaPage1 {
+/*#startParaPage1 {
 	margin-top: 35px;
-}
+}*/
 
 #carous {
  	width: 100%;
@@ -333,6 +326,11 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 /*******extra extra small**********/
 @media (max-width: 450px) {
 
+	.navbar-dark .navbar-nav .nav-link{
+		color: #FA857F;
+		text-align: center;
+		background-color: rgb(29,76,123);
+	}
 	#telebimImg{
 		width:100%;
 		left: 0px;
@@ -342,14 +340,10 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	h1.mainTelebim {
 		margin-top: 0.5em;
 	}
-
-	#colIndex{
-		margin-top: 10%;
-	}
 	
 	h1 {
 		font-size: 100%;
-		margin-top: 6px;
+/*		margin-top: 6px;*/
 	}
 
 	h1.main {
@@ -364,6 +358,7 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		color: #FA857F;
 		font-size: 12px;
 		margin-top: 2px;
+		width:75%;
 	}
 	
 	body {
@@ -415,6 +410,7 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 	.navbar-dark .navbar-nav .nav-link{
 		color: #FA857F;
 		text-align: center;
+		background-color: rgb(29,76,123);
 	}
 
 	#telebimImg{
@@ -425,10 +421,6 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		margin-top: 1em;
 	}
 
-	#colIndex{
-		margin-top: 10%;
-	}
-	
 	h1 {
 		font-size: 100%;
 		margin-top: 6px;
@@ -493,17 +485,12 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 		margin-top: 5%;
 	}
 
-	#colIndex{
-		margin-top: 10%;
-	}
-
 	#telebim {
 		width: 100%;
 		height: 350px;
 	}
 	h1 {
 		font-size: 150%;
-		margin-top: 6px;
 	}
 
 	.display-2 {
@@ -530,11 +517,13 @@ a.tel:hover, a.mailto:hover,a.telModal:hover, a.mailtoModal:hover {
 /*******large**********/
 @media (min-width: 992px) {
 
-
-	h1.main {
-		font-size: 60px;
+	h1 {
+		font-size: 150%;
 	}
-
+/*	h1.main {
+		font-size: 50px;
+	}
+*/
 	.jumbotron{
 		padding-top: 6em;
 		padding-bottom: 6em;
