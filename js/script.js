@@ -99,12 +99,14 @@ $ajaxUtils.sendGetRequest("snippets/employee.html",
     $ajaxUtils.sendGetRequest("data/lekarze.json", 
       function(res){
         for (var i = 0; i < res.length; i++){ 
+          var tytul = res[i].tytul;
           var imie = res[i].imie;
           var nazwisko = res[i].nazwisko;
           var tekst = res[i].tekst;
           var tel = res[i].tel;
           var mail = res[i].mail;
             empl = request.responseText;
+            empl = empl.replace(new RegExp("{{tytul}}", "g"), tytul);
             empl = empl.replace(new RegExp("{{imie}}", "g"), imie);
             empl = empl.replace(new RegExp("{{nazwisko}}", "g"), nazwisko); 
             empl = empl.replace(new RegExp("{{tekst}}", "g"), tekst); 
@@ -129,12 +131,14 @@ $ajaxUtils.sendGetRequest("snippets/employee.html",
     $ajaxUtils.sendGetRequest("data/pielegniarki.json", 
       function(res){
         for (var i = 0; i < res.length; i++){ 
+          var tytul = res[i].tytul;
           var imie = res[i].imie;
           var nazwisko = res[i].nazwisko;
           var tekst = res[i].tekst;
           var tel = res[i].tel;
           var mail = res[i].mail;
             empl = request.responseText;
+            empl = empl.replace(new RegExp("{{tytul}}", "g"), tytul);            
             empl = empl.replace(new RegExp("{{imie}}", "g"), imie);
             empl = empl.replace(new RegExp("{{nazwisko}}", "g"), nazwisko); 
             empl = empl.replace(new RegExp("{{tekst}}", "g"), tekst); 
@@ -158,12 +162,14 @@ $ajaxUtils.sendGetRequest("snippets/employee.html",
     $ajaxUtils.sendGetRequest("data/specjalisci.json", 
       function(res){
         for (var i = 0; i < res.length; i++){ 
+          var tytul = res[i].tytul;
           var imie = res[i].imie;
           var nazwisko = res[i].nazwisko;
           var tekst = res[i].tekst;
           var tel = res[i].tel;
           var mail = res[i].mail;
             empl = request.responseText;
+            empl = empl.replace(new RegExp("{{tytul}}", "g"), tytul);
             empl = empl.replace(new RegExp("{{imie}}", "g"), imie);
             empl = empl.replace(new RegExp("{{nazwisko}}", "g"), nazwisko); 
             empl = empl.replace(new RegExp("{{tekst}}", "g"), tekst); 
